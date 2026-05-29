@@ -143,3 +143,5 @@ When debug mode is enabled, the application writes verbose details to the log fi
 - For production, avoid plaintext credentials in shell history.
 - Some devices require valid TLS setup even with `skip_verify`.
 - Paths and encoding support depend on your network OS and gNMI server.
+
+![alt text](gnmi-tui-screenshot.png)
