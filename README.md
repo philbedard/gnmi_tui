@@ -54,7 +54,7 @@ Press `x` to clear selected monitor paths.
 - Compact view shows: timestamp, key value, path-after-key, and value.
 - Press `c` again to return to full view.
 
-## Monitor Mode
+## Monitor and Graph Mode
 
 - Move to a table row and press `Space` to select or unselect that row's path for monitoring.
 - Press `Enter` on the table to open monitor mode.
@@ -63,6 +63,8 @@ Press `x` to clear selected monitor paths.
 - Press `Esc` to close monitor mode.
 - Selected monitor paths are marked with `*` and highlighted in the table.
 - While one or more monitor paths are selected, incoming table updates are paused.
+- Press `g` to select a path to graph. Press `g` again to close the graph window 
+
 
 ## Freeze Mode
 
