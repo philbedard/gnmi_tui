@@ -34,13 +34,13 @@ python -m gnmi_tui \
 ```
 
 Press `q` to quit.
-Press `c` to toggle compact view.
+Press `c` to toggle compact view.  See below for details on compact view.  
 Press `f` to freeze or resume the main table.
 Press `i` to toggle the info pane.
 Press `/` to jump to the path filter.
 Press `x` to clear selected monitor paths.
 
-## TUI Filtering
+## Filtering output
 
 - Type in filter boxes at the top of the app to filter rows in real time.
 - `Filter path`: Matches substrings in telemetry path.
@@ -56,6 +56,13 @@ Press `x` to clear selected monitor paths.
 - Compact view shows: timestamp, key value, path-after-key, and value.
 - Press `c` again to return to full view.
 
+
+## Freeze Mode
+
+- Press `f` to freeze the main table display.
+- While frozen, new incoming rows are buffered instead of rendered.
+- Press `f` again to resume and flush buffered rows into the table.
+
 ## Monitor and Graph Mode
 
 - Move to a table row and press `Space` to select or unselect that row's path for monitoring.
@@ -66,13 +73,6 @@ Press `x` to clear selected monitor paths.
 - Selected monitor paths are marked with `*` and highlighted in the table.
 - While one or more monitor paths are selected, incoming table updates are paused.
 - Press `g` to select a path to graph. Press `g` again to close the graph window 
-
-
-## Freeze Mode
-
-- Press `f` to freeze the main table display.
-- While frozen, new incoming rows are buffered instead of rendered.
-- Press `f` again to resume and flush buffered rows into the table.
 
 ## Configuration File
 
