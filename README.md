@@ -1,6 +1,8 @@
 # gNMI Telemetry TUI
 
-A terminal UI application that subscribes to gNMI streaming telemetry and auto-refreshes with human-readable updates.
+A terminal UI application that subscribes to gNMI streaming telemetry, can select specific paths for granular monitoring with text based graphing.  
+
+98% created using AI tools :) 
 
 ## Features
 
